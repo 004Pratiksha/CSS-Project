@@ -136,7 +136,7 @@ body{
     font-size: 30px;
     font-weight: 400px;                                                
     background: #ffffff40;
-    box-shadow: 0 80p 32px 0 rgba(31, 38, 135,0.37);
+    box-shadow: 0 80p 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
     margin-top: 40px;
 }
@@ -179,6 +179,102 @@ body{
     content: "";
     clear: both;
     display: table;
+  }
+
+  
+  .discover-section{
+    width: 80%;
+    margin: 100px auto;
+  }
+
+  .discover-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #ffff;
+    border: 2px solid #ffffff40;
+    border-radius: 7px;
+    mix-blend-mode: color-dodge  ;
+}
+
+.discover-card img{
+     width: 600%;
+     align-items: self-start;
+     mix-blend-mode: color-dodge ;
+   }
+   .discover-card-details .big-text{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 900;
+   }
+   
+   .discover-card-details-btn{
+     width: fit-content;
+     border: 1px solid grey;
+     padding: 10px 20px;
+     transform: skewX(-20deg);
+   }
 
 
+  .demo-card-section{
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+  }
+  .demo-cards{
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .demo-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 7px;
+    border: 1px solid #ffffff23;
+    background: #35276d;
+    box-shadow: 0 80p 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    float: left;
+    width: 25.33%;
+    padding: 5px;
+    margin-right: 45px;
+  }
+  .demo-card > h5{
+    margin: 0;
+    align-self: self-start;
+    font-size: 15px;
+
+  }
+  .demo-card h5,
+  .demo-card p {
+    margin: 0%;
+  }
+  .demo-game-btn{
+    cursor: pointer;
+    text-align: center;
+    transform: skewX(-20deg);
+    border: 1px solid #7d63f1;
+    width: 90%;
+    padding: 10px 0px;
+    transform: skewX(-20deg);
+    background: rgb(45, 30, 107);
+    background: linear-gradient(45deg, #7d63f1 6%,#2c2c94 28%, #f805d0 97%);
+    color: #fff ;
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: #fff;
+    padding: 100px 10% 0 10;
+    position: relative;
+    
   }
